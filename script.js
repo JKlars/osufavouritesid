@@ -26,6 +26,11 @@ fs.writeFile("data.txt", data, (err) => {
 
         return;
 
-      }
+    }
 
-    });
+    
+    console.log("File written to successfully. Closing console...");
+    process.exit();
+
+});
+
